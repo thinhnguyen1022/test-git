@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;} 
+.banner{
+    background: url(2.png) no-repeat;
+    height: 100px;
+    background-size: cover;
+}
+
+.menu {
+    height: 50px;
+    line-height: 50px;
+    background: #b72121;
+    transform: 0.4s;
+}
+
+.menu.menuden{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    background: black;
+}
+
+.menu a {
+    padding: 0 35px;
+    color: white;
+    text-transform: uppercase;
+} 
+.chungtoi.vangdunglai {
+    top: 46px;
+    position: fixed;
+}

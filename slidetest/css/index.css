@@ -1,0 +1,14 @@
+.khoi{
+    background: rgb(52, 52, 122);
+    width: 100px;
+    height: 100px;
+}
+.dichuyen{animation: sangphai 1s forwards;}
+@-webkit-keyframes sangphai{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}

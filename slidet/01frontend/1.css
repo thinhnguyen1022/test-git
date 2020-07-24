@@ -1,0 +1,115 @@
+*{padding: 0; margin: 0;}
+html, body{overflow-x: hidden;}
+html, body, .motslide, .cacslide, .cacslide ul, .cacslide ul li, .motslide, .motslide .anh{width: 100%; height: 100%;}
+.cacslide{
+    position: relative;
+}
+.cacslide ul{
+    position: relative;
+    
+}
+.cacslide ul li{
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    opacity: 0;
+}
+.cacslide ul li.active{
+    opacity: 1;
+}
+.cacslide ul li .motslide{
+    position: relative;
+}
+.motslide .anh{
+    background-size: cover;
+}
+.motslide .duoi1,
+.motslide .duoi2,
+.motslide .tren,
+.motslide .text{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.text {
+    color: white;
+    margin: 220px 70px;
+    width: 300px;
+}
+.motslide .duoi1{
+    opacity: 0.5;
+    top: -70%;
+}
+.motslide .duoi2{
+    top: -40%;
+    opacity: 0.7;
+}
+.motslide .tren{
+    opacity: 1;
+    right: -140px;
+}
+.text h2{
+    font-family: segoe ui light;
+    font-size: 50px;
+}
+.text small{
+    display: block;
+    font-size: 40px;
+    padding: 10px 0 20px 0;
+    font-family: segoe ui light;
+}
+.text .ke{
+    width: 25%;
+    height: 1px;
+    background: white;
+    margin: 0 0 20px 0;
+}
+.text p{
+    font-family: segoe ui light;
+    font-size: 13px;
+    line-height: 20px;
+}
+.text a{
+    color: white;
+    display: block-inline;
+    text-decoration: none;
+    border: 1px solid blue;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.nuts ul {
+    display: inline;
+}
+
+.nuts ul li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    text-indent: -9999px;
+    border-radius: 50%;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+
+.nuts ul li:hover {
+    background: purple;
+}
+
+.trangchu {
+    background: purple;
+}
+
+.nuts {
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    z-index: 9;
+    transform: translateX(-50%);
+
+}

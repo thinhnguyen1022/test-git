@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;} 
+
+.dekick i.fa {
+    cursor: pointer;
+}
+
+.dekick {
+    padding: 10px 16px;
+}
+
+.mautrang{
+    color: white;
+}
+
+.danhsach {
+    position: absolute;
+    width: 200px;
+    font-size: 13px;
+    transition: 0.4s;
+    right: 2px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.danhsach:after {
+    right: 8px;
+    content: '';
+    position: absolute;
+    border: 11px solid rgba(0, 0, 0, 0);
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-bottom-color: white;
+}
+
+._1phantu {
+    position: relative;
+    float: left;
+    perspective: 500px;
+}
+
+.thanhxanh {
+    background: #3b5998;
+    height: 43px;
+    padding-left: 800px;
+} 
+.ra{
+    opacity: 1;
+    visibility: visible;
+    animation: len 1s forwards; */
+}
+@-webkit-keyframes len {
+    from{transform: rotateY(-90deg);  opacity: 0; transform-origin: 100% 100%;}
+    to{transform: translateY(0deg); opacity: 1;}
+}
