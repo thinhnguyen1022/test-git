@@ -59,7 +59,7 @@ else{
 function onListClicked(event) {
     var button = event.target;
     var i = parseInt(button.dataset.id);
-    // listss.spLice(i, 1);
+    listss.spLice(i, 1);
     render();
     localStorage.setItem(storageKey, JSON.stringify(listss));
 } 
